@@ -1,10 +1,115 @@
 .App {
   text-align: center;
+  background-color: #f0ead6;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.flexbox {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+.RightInput {
+  position: relative;
+  margin-left: 2%;
+}
+.LeftInput,
+.RightInput {
+  border: 2px solid #f22b27;
+  border-radius: 3px;
+}
+button {
+  background-color: #f22b27;
+  border-radius: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+  color: white;
+  text-align: center;
+  width: 120px;
+  height: 30px;
+}
+button:hover {
+  background-color: white;
+  color: #f22b27;
+}
+.btn {
+  background-color: #f22b27;
+  border-radius: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+  color: white;
+  text-align: center;
+  width: 120px;
+  height: 30px;
+}
+.btn:hover {
+  background-color: white;
+  color: #f22b27;
+}
+
+.meme {
+  position: relative;
+  margin-top: 5%;
+}
+.meme img {
+  height: 400px;
+  background-repeat: no-repeat;
+}
+
+.top {
+  position: absolute;
+  left: 37%;
+  top: -3%;
+  font-size: 40px;
+  text-align: center;
+  overflow-wrap: break-word;
+  width: 400px;
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.bottom {
+  position: absolute;
+  left: 37%;
+  bottom: -5%;
+  font-size: 40px;
+  text-align: center;
+  overflow-wrap: break-word;
+  width: 400px;
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.uploadButton {
+  -webkit-appearance: button;
+  background-color: #f22b27;
+  color: white;
+  border-radius: 20px;
+  width: 120px;
+  height: 30px;
+}
+
+.resetButton {
+  background-color: white;
+  border-radius: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+  color: #f22b27;
+  text-align: center;
+  width: 120px;
+  height: 30px;
+  border: 3px solid;
+}
+.resetButton:hover {
+  background-color: #f22b27;
+  color: white;
 }
 
 @media (prefers-reduced-motion: no-preference) {
